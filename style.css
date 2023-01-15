@@ -1,0 +1,171 @@
+*{
+    color: hsl(240deg 40% 28%);
+}
+.container {
+    background-color: hsl(355deg 100% 82%);
+}
+
+.inner_container {
+    height: auto;
+    padding: 20px;
+}
+
+.fa-solid {
+    font-size: 70px;
+}
+
+
+.art1 {
+    padding: 0 50px;
+    height: 250px;
+}
+
+.art2 {
+    padding-left: 20px;
+    border-left: 4px solid hsl(240deg 40% 28%);
+    height: 250px;
+}
+
+.art-main {
+    border-bottom: 4px solid hsl(240deg 40% 28%);
+}
+
+.icon {
+    text-align: center;
+}
+.circle-icon{
+    border-radius: 50%;
+    border :4px solid hsl(240deg 40% 28%);
+    padding: 20px;
+}
+
+.icon i {
+    margin: 20px;
+    color: hsl(240deg 40% 28%);
+}
+
+.internet {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img {
+
+    background-color: hsl(240deg 40% 28%);
+    border-radius: 50%;
+
+}
+
+.img i {
+    color: hsl(355deg 100% 82%);
+    ;
+}
+
+.th4 {
+    margin-top: 10px;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: hsl(240deg 40% 28%);
+
+}
+
+
+.fcr p {
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+
+.mob {
+    padding-top: 20px;
+}
+
+.uiux {
+    padding-top: 10px;
+}
+
+.tech1 {
+    display: none;
+}
+
+.fcr {
+    display: flex;
+}
+
+.tox {
+    display: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .art1 {
+        padding: 0 40px;
+        text-align: center;
+        height: 150px;
+    }
+
+    .tech1 {
+        display: block;
+    }
+
+    .tech2 {
+        display: none;
+    }
+
+    .art1 h1 {
+        font-size: 30px;
+    }
+
+    .art2 {
+        border-left: none;
+        text-align: center;
+    }
+
+    .uiux {
+        text-align: center;
+    }
+
+    .skill {
+        margin-top: 350px;
+        border-top: 4px solid hsl(240deg 40% 28%);
+    }
+
+    .art-main {
+        border-bottom: none;
+    }
+
+    .interests {
+        margin-top: 200px;
+        margin-bottom: 50px;
+        border-top: 4px solid hsl(240deg 40% 28%);
+    }
+
+    .edu {
+        border-top: 4px solid hsl(240deg 40% 28%);
+        text-align: center;
+    }
+
+    .cr {
+        display: none;
+    }
+
+    .tox {
+        display: flex;
+        justify-content: center;
+    }
+
+    .b-bottom {
+        border-bottom: 4px solid hsl(240deg 40% 28%);
+    }
+
+    .icon p {
+        font-weight: 800;
+    }
+
+    .internet p {
+        font-weight: 500 !important;
+    }
+}
